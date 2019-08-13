@@ -1,7 +1,11 @@
 import pandas as pd
 import numpy as np
+import os
+
 
 # Search for csv files in data/
+for files in os.listdir('/Users/nick/Coding/SpectroLyzer/SpectroLyzer/data'):
+  print(files)
 
 # make a dictionary of csv files and how they will be referenced
 
