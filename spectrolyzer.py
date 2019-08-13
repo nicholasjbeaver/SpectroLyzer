@@ -4,10 +4,14 @@ import os
 
 
 # Search for csv files in data/
-for files in os.listdir('/Users/nick/Coding/SpectroLyzer/SpectroLyzer/data'):
-  print(files)
+# make a list of files in data directory
 
-# make a dictionary of csv files and how they will be referenced
+data = []
+
+for files in os.listdir('/Users/nick/Coding/SpectroLyzer/SpectroLyzer/data'):
+  data.append(files)
+  print(data)
+
 
 # function to display table at maximum wavelength
 
